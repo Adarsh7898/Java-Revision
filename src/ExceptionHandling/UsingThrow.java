@@ -1,13 +1,25 @@
 package ExceptionHandling;
 
+import java.util.Scanner;
+
 public class UsingThrow {
     public static void main(String[] args) {
-        int age=15;
+
+        System.out.printf("Please enter you age: ");
+
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+
         try{
-            if(age<18);
-            throw new RuntimeException("Under eighteen");
-        }catch (Exception e){
-            System.out.println("");
+            if(age<18) throw new RuntimeException("Abhi bachcha hai...");
+            else {
+                System.out.printf("Vote daal le beta....");
+            }
         }
+        catch (Exception e){
+            System.out.printf(e.getMessage());
+        }
+
+
     }
 }
