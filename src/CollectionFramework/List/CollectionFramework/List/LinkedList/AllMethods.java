@@ -1,5 +1,6 @@
 package CollectionFramework.List.CollectionFramework.List.LinkedList;
 
+import java.util.Collection;
 import java.util.LinkedList;
 
 public class AllMethods {
@@ -65,6 +66,20 @@ public class AllMethods {
 
         System.out.println(linkedList);
 
+
+
+        Collection<Integer> li = new LinkedList<>();
+        li.add(10);
+        li.add(20);
+        li.add(30);
+        li.add(40);
+
+//        li.remove();
+//        li.remove();
+
+        System.out.print(li);
     }
 
-}
+    }
+
+
