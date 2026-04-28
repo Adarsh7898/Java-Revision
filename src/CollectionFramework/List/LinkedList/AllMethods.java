@@ -1,4 +1,4 @@
-package CollectionFramework.List.CollectionFramework.List.LinkedList;
+package CollectionFramework.List.LinkedList;
 
 import java.util.Collection;
 import java.util.LinkedList;
